@@ -257,7 +257,7 @@ There are no accounts and nothing is stored server-side.
 | Prompt | Only the Center, its mentors and programs. No prices, deadlines or admissions facts unless they are on the site. No promised matches. No ties to Northeastern. |
 | Cards | Built from our data by slug, never from model text. |
 | Endpoint | Rate limit, size caps and tool-round cap protect against abuse and runaway cost. |
-| Tests | The eval suite (step 6) includes pricing, guarantee and off-topic traps, with a target of zero violations. |
+| Tests | The end-to-end eval (step 6) includes a trap case for every rule in `PRODUCT.md`, with a target of zero violations. |
 
 ---
 
@@ -277,14 +277,20 @@ mentor-matching-system/
 │   ├── engine.ts       (built)  search, filters, counts
 │   ├── tools.ts        (built)  Claude tool definitions + executor
 │   ├── prompt.ts       (planned) system prompt, roster, page text
-│   └── *.test.ts       (built)  29 unit tests
+│   └── *.test.ts       (built)  unit tests
 ├── scripts/
 │   ├── sync-data.ts    (built)  site data + crawl -> data/
 │   └── enrich.ts       (built)  Claude enrichment with hash cache
 ├── data/               (built)  mentors.source.json, mentors.enriched.json, pages.json
-├── eval/               (planned) questions + runner (npm run eval)
+├── eval/
+│   ├── lib/metrics.ts  (built)  nDCG, recall, MRR, strong-hit (unit tested)
+│   ├── search/         (built)  labeled search cases, runner, committed baseline
+│   └── e2e/            (planned) questions through the real assistant
+├── .github/            (built)  CI on every push, Dependabot
+├── CONTRIBUTING.md     (built)  how changes are made, tested and measured
 └── docs/
     ├── PRODUCT.md      what visitors see and the rules it follows
+    ├── decisions/      why each design choice was made
     └── arch.md         this file
 ```
 

@@ -1,0 +1,222 @@
+{
+  "cases": {
+    "name:Dana Deasy": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:dana deasey": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:Wendy Pfeiffer": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:sherry aholm": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:Melissa Hathaway": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:Ursula Soritsch-Renier": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:phiroz darukanavala": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:Atti Riazi": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:Andre Meillassoux": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "name:Graham O'Sullivan": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "org:JPMorgan": {
+      "ndcg@10": 0.7708,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 0
+    },
+    "org:IBM": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "org:Microsoft": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "org:Goldman Sachs": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 0
+    },
+    "org:McKinsey": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 0
+    },
+    "org:Accenture": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "org:Citigroup": {
+      "ndcg@10": 0.6489,
+      "recall@20": 0.3846,
+      "mrr": 1,
+      "strongHit@3": 0
+    },
+    "org:Deloitte": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "title:CISO": {
+      "ndcg@10": 0.8219,
+      "recall@20": 0.875,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "title:Chief Digital Officer": {
+      "ndcg@10": 0.8887,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "title:CTO": {
+      "ndcg@10": 0.8643,
+      "recall@20": 0.5,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "title:professor": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "need:CIO at a law firm": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "need:moving from CIO to a board seat": {
+      "ndcg@10": 0.8226,
+      "recall@20": 0.7857,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "need:cybersecurity leader in financial services": {
+      "ndcg@10": 0.1223,
+      "recall@20": 0.375,
+      "mrr": 0.25,
+      "strongHit@3": 0
+    },
+    "need:digital transformation in healthcare": {
+      "ndcg@10": 0.6411,
+      "recall@20": 0.5,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "need:starting my own tech company": {
+      "ndcg@10": 0.1518,
+      "recall@20": 0.15,
+      "mrr": 0.1667,
+      "strongHit@3": 0
+    },
+    "need:AI strategy for the enterprise": {
+      "ndcg@10": 0.3497,
+      "recall@20": 0.5556,
+      "mrr": 0.5,
+      "strongHit@3": 1
+    },
+    "need:government and public sector technology": {
+      "ndcg@10": 0.7181,
+      "recall@20": 0.75,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "need:becoming a CTO": {
+      "ndcg@10": 0.5877,
+      "recall@20": 0.75,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "need:cloud transformation strategy": {
+      "ndcg@10": 0.7538,
+      "recall@20": 0.7778,
+      "mrr": 1,
+      "strongHit@3": 1
+    }
+  },
+  "categories": {
+    "name": {
+      "ndcg@10": 1,
+      "recall@20": 1,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "organization": {
+      "ndcg@10": 0.9275,
+      "recall@20": 0.9231,
+      "mrr": 1,
+      "strongHit@3": 0.5
+    },
+    "title": {
+      "ndcg@10": 0.8937,
+      "recall@20": 0.8438,
+      "mrr": 1,
+      "strongHit@3": 1
+    },
+    "need": {
+      "ndcg@10": 0.5719,
+      "recall@20": 0.6271,
+      "mrr": 0.7685,
+      "strongHit@3": 0.7778
+    },
+    "overall": {
+      "ndcg@10": 0.8433,
+      "recall@20": 0.8517,
+      "mrr": 0.9328,
+      "strongHit@3": 0.8065
+    }
+  }
+}

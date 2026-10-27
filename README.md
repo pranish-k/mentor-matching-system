@@ -5,6 +5,8 @@ Visitors ask questions in plain language and get short, accurate answers with me
 
 - [`docs/PRODUCT.md`](docs/PRODUCT.md): what visitors see and how it behaves.
 - [`docs/arch.md`](docs/arch.md): system design and architecture map.
+- [`docs/decisions/`](docs/decisions/): why each design choice was made.
+- [`CONTRIBUTING.md`](CONTRIBUTING.md): how changes are made, tested and measured.
 
 ## Setup
 
@@ -20,6 +22,7 @@ npm run dev
 |---|---|
 | `npm run dev` | Run the app locally |
 | `npm run data:update` | Sync mentors from new-center and crawl the deployed site, then re-enrich changed mentors |
+| `npm run check` | Lint, typecheck, unit tests and search eval (what CI runs, minus the build) |
 | `npm test` | Unit tests |
-| `npm run eval` | Run the question test suite against the live assistant |
-| `npm run lint` / `npm run build` | Lint / production build |
+| `npm run eval:search` | Score search ranking on labeled queries; fails on any drop vs the baseline |
+| `npm run lint` / `npm run typecheck` / `npm run build` | Lint / types / production build |
