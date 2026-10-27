@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Design tokens and base styles copied from the new-center site
+   (proposed_center/site/app/globals.css, DESIGN.md) so the assistant looks
+   the same here as it will once ported. */
+:root {
+  --navy: #002868;
+  --navy-deep: #001a4d;
+  --gold: #b9975b;
+  --off-white: #f7f6f3;
+  --text-primary: #111111;
+  --text-secondary: #6b6b6b;
+  --divider: #e2e0dc;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer base {
+  body {
+    background: #ffffff;
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+  }
+}
